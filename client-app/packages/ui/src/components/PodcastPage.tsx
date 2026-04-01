@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import type { Episode } from "@podcast/types";
 import { AudioPlayer } from "./AudioPlayer";
-import type { Episode } from "./AudioPlayer";
 import { PodcastEpisodeCard } from "./PodcastEpisodeCard";
 
 const EPISODES: Episode[] = [

@@ -1,4 +1,4 @@
-import type { Episode } from "./AudioPlayer";
+import type { Episode } from "@podcast/types";
 
 interface PodcastEpisodeCardProps {
   episode: Episode;

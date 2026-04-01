@@ -1,8 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./index.css";
-import { PodcastPage } from "./components/PodcastPage";
-import { LoginPage } from "./components/LoginPage";
-import { RegisterPage } from "./components/RegisterPage";
+import { PodcastPage, LoginPage, RegisterPage } from "@podcast/ui";
 
 export function App() {
   return (

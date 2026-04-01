@@ -1,15 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-
-export interface Episode {
-  id: number;
-  title: string;
-  author: string;
-  description: string;
-  duration: string;
-  date: string;
-  audioUrl: string;
-  cover: string;
-}
+import type { Episode } from "@podcast/types";
 
 interface AudioPlayerProps {
   episode: Episode | null;
