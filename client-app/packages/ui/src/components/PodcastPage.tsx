@@ -14,7 +14,7 @@ const EPISODES: Episode[] = [
     duration: "42:10",
     date: "25 марта 2026",
     audioUrl: "",
-    cover: "https://picsum.photos/seed/pod1/80/80",
+    cover: "https://placehold.co/80x80/7c3aed/ffffff?text=1",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const EPISODES: Episode[] = [
     duration: "58:30",
     date: "28 марта 2026",
     audioUrl: "",
-    cover: "https://picsum.photos/seed/pod2/80/80",
+    cover: "https://placehold.co/80x80/0ea5e9/ffffff?text=2",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const EPISODES: Episode[] = [
     duration: "36:45",
     date: "31 марта 2026",
     audioUrl: "",
-    cover: "https://picsum.photos/seed/pod3/80/80",
+    cover: "https://placehold.co/80x80/10b981/ffffff?text=3",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const EPISODES: Episode[] = [
     duration: "51:20",
     date: "1 апреля 2026",
     audioUrl: "",
-    cover: "https://picsum.photos/seed/pod4/80/80",
+    cover: "https://placehold.co/80x80/f59e0b/ffffff?text=4",
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const EPISODES: Episode[] = [
     duration: "47:05",
     date: "4 апреля 2026",
     audioUrl: "",
-    cover: "https://picsum.photos/seed/pod5/80/80",
+    cover: "https://placehold.co/80x80/ef4444/ffffff?text=5",
   },
 ];
 
