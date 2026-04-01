@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { AudioPlayer } from "./AudioPlayer";
 import type { Episode } from "./AudioPlayer";
 import { PodcastEpisodeCard } from "./PodcastEpisodeCard";
@@ -66,6 +67,14 @@ export function PodcastPage() {
 
   return (
     <div className="podcast-page">
+      <nav className="site-nav">
+        <span className="site-nav__brand">Tech Волна</span>
+        <div className="site-nav__actions">
+          <Link className="site-nav__btn site-nav__btn--outline" to="/login">Войти</Link>
+          <Link className="site-nav__btn site-nav__btn--fill" to="/register">Регистрация</Link>
+        </div>
+      </nav>
+
       <header className="podcast-header">
         <div className="podcast-header__badge">ПОДКАСТ</div>
         <h1 className="podcast-header__title">Tech Волна</h1>
