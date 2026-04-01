@@ -1,0 +1,30 @@
+{
+  "name": "@podcast/mobile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.3.0",
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "^8.3.0",
+    "@capacitor/splash-screen": "latest",
+    "@podcast/types": "workspace:*",
+    "@podcast/ui": "workspace:*",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4",
+    "typescript": "~5.8.3",
+    "vite": "^7.3.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "appId": "com.podcast.mobile",
+  "appName": "podcast-mobile",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
